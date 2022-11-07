@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     margin: 0 auto;
+}
+
+header{
+    background-color: #006c67;
+    color: black;
+    font-size: 30px;
+    padding: 0px 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+main{
+    padding: 250px;
+    text-align: center;  
+    font-size: 30px;
+}
+
+footer{
+    background-color: #cf132c;
+    text-align: center;
+    height: 100%;
+    padding: 14px;
+}
+
+footer img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #006c67;
+    border-radius: 50%;
+}
