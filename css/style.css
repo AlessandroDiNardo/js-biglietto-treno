@@ -1,3 +1,4 @@
+/* regole generali */
 *{
     margin: 0;
     padding: 0;
@@ -8,33 +9,95 @@ body{
      margin: 0 auto;
 }
 
+
+
+/* header */
 header{
     background-color: #006c67;
     color: black;
     font-size: 30px;
-    padding: 0px 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 h1{
-    padding: 10px;
+    padding: 40px;
     border-radius: 30px;
     text-align: center;
 }
 
+
+
+/* main */
 main{
-    padding: 250px;
     text-align: center;  
     font-size: 30px;
 }
 
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.km-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    border: 2px solid #cf132c;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px 2px #cf132c;
+}
+
+.eta-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #006c67;
+    box-shadow: 3px 3px 8px 2px #006c67;
+    border-radius: 10px;
+}
+
+.km-block:hover{
+    cursor: pointer;
+    background-color:#cf132c;
+}
+
+.eta-block:hover{
+    cursor: pointer;
+    background-color: #006c67;
+}
+
+.trip-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+}
+
+.trip-info{
+    border: 1px solid #006c67;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px 2px #006c67;
+}
+
+.trip-info:hover{
+    border: 1px solid #cf132c;
+    cursor: pointer;
+    background-color: #cf132c;
+    box-shadow: 3px 3px 8px 2px #cf132c;
+    color: white;
+}
+
+/* footer */
 footer{
     background-color: #cf132c;
     text-align: center;
     height: 100%;
-    padding: 14px;
+    padding: 30px;
 }
 
 footer img{

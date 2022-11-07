@@ -42,4 +42,6 @@ console.log(tot);
 
 
 //output
-document.getElementById("trip").innerHTML = `${tot}€`;
+document.getElementById("km").innerHTML = `${km}`;
+document.getElementById("eta").innerHTML = `${eta}`;
+document.getElementById("price").innerHTML = `${tot}€`;
