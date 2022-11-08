@@ -30,12 +30,14 @@ if(eta > 18 && eta < 65){
 }
 
 if(eta < 18){
-    tot = (prezzo / 100) * 20;
+    let sconto = (prezzo / 100) * 20;
+    tot = prezzo - sconto;
 }
 
 // sconto per over 65
 if(eta > 65){
-    tot = (prezzo / 100) * 40;
+    let sconto = (prezzo / 100) * 40;
+    tot = prezzo - sconto;
 }
 
 console.log(tot);
@@ -44,4 +46,4 @@ console.log(tot);
 //output
 document.getElementById("km").innerHTML = `${km}`;
 document.getElementById("eta").innerHTML = `${eta}`;
-document.getElementById("price").innerHTML = `${tot}€`;
+document.getElementById("price").innerHTML = `${tot.toFixed(2)}€`;
